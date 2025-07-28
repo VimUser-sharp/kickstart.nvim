@@ -15,9 +15,18 @@ return {
   },
   opts = {
     filesystem = {
+      filtered_items = {
+        --hide_dotfiles = false,
+        --hide_gitignored = false,
+      },
       window = {
         mappings = {
           ['\\'] = 'close_window',
+          ['<bs>'] = 'navigate_up',
+          ['.'] = 'set_root',
+          ['H'] = 'toggle_hidden',
+          ['/'] = 'fuzzy_finder',
+          ['D'] = 'fuzzy_finder_directory',
         },
       },
     },
