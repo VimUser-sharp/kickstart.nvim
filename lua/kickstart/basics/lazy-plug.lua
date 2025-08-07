@@ -131,11 +131,11 @@ require('lazy').setup({
   require 'kickstart.plugins.neo-tree',
   require 'kickstart.plugins.mini-icons',
   require 'kickstart.plugins.snacks',
+  require 'kickstart.plugins.autosave',
   --require 'kickstart.plugins.lazygit',
   --require 'kickstart.plugins.language-especific-plugins.rustecean',
   --TEMAS DE CORES
-  --require 'kickstart.plugins.colorthemes.tokyonight',
-  require 'kickstart.plugins.colorthemes.arctic',
+  require 'kickstart.basics.switch-color',
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
   --
