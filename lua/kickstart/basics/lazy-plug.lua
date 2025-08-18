@@ -132,7 +132,9 @@ require('lazy').setup({
   require 'kickstart.plugins.mini-icons',
   require 'kickstart.plugins.snacks',
   require 'kickstart.plugins.autosave',
+  --require 'kickstart.plugins.git-graphic',
   --require 'kickstart.plugins.lazygit',
+  --require 'kickstart.plugins.supermaven_nvim',
   --require 'kickstart.plugins.language-especific-plugins.rustecean',
   --TEMAS DE CORES
   require 'kickstart.basics.switch-color',

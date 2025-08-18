@@ -5,6 +5,7 @@ return {
     lazy = false,
     ---@type snacks.Config
     opts = {
+
       -- your configuration comes here
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
@@ -20,6 +21,22 @@ return {
       scroll = { enabled = true },
       statuscolumn = { enabled = true },
       words = { enabled = true },
+    },
+    keys = {
+      {
+        '<leader>tt',
+        function()
+          require('snacks').terminal()
+        end,
+        desc = 'Toggle Terminal',
+      },
+      {
+        '<leader>db',
+        function()
+          require('snacks').bufdelete.other()
+        end,
+        desc = 'deleta todos os buffers menos o atual',
+      },
     },
   },
 }
