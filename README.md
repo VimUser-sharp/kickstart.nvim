@@ -65,6 +65,10 @@ You likely want to remove `lazy-lock.json` from your fork's `.gitignore` file
 too - it's ignored in the kickstart repo to make maintenance easier, but it's
 [recommended to track it in version control](https://lazy.folke.io/usage/lockfile).
 
+### my neovim especifict dependences
+
+lazygit, rust, fd-find
+
 #### Clone kickstart.nvim
 
 > [!NOTE]
