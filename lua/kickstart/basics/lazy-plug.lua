@@ -132,6 +132,8 @@ require('lazy').setup({
   require 'kickstart.plugins.mini-icons',
   require 'kickstart.plugins.snacks',
   require 'kickstart.plugins.autosave',
+  --require 'kickstart.plugins.language-especific-plugins.dotnet',
+  --require 'kickstart.plugins.language-especific-plugins.roslyn',
   --require 'kickstart.plugins.git-graphic',
   --require 'kickstart.plugins.lazygit',
   --require 'kickstart.plugins.supermaven_nvim',
