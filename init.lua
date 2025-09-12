@@ -83,7 +83,7 @@ I hope you enjoy your Neovim journey,
 
 P.S. You can delete this when you're done too. It's your config now! :)
 --]]
-
+--vim.env.PATH = vim.fn.system('source ~/.nvm/nvm.sh && echo $PATH'):gsub('\n','')
 -- torna ESPAÇO a tecla lider by default
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
