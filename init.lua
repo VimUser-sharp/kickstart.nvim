@@ -116,3 +116,5 @@ require 'kickstart.basics.plugin-manager'
 --
 -- NOTE: aqui é onde os plugins serão instalados e usados pelo neovim.
 require 'kickstart.basics.lazy-plug'
+-- NOTE: lsp avulso
+--vim.lsp.config('roslyn', {})

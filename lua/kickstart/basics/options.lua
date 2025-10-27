@@ -67,3 +67,7 @@ vim.o.scrolloff = 11
 -- instead raise a dialog asking if you wish to save the current file(s)
 -- See `:help 'confirm'`
 vim.o.confirm = true
+
+-- Determina se o historico de desfazer do arquvio permanece após fecha-lo, em false se o arquivo for fechado não vai desfazer nada que foi
+-- feito antes de fechar o arquivo
+vim.o.undofile = false
